@@ -1,14 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int main()
+int heart() 
 {
-    cout << " " << "O~" << " " << "  " << " " << "O" << " " << endl;
-    cout << "(" << "|" << ")" << "  " << "[" << " " << "|" << " " << "]" << endl;
-    cout << " " << "^" << " " << "  " << " " << " " << "|" << " " << " " << endl;
-    cout << "|" << " " << "|" << "  " << "|" << " " << " " << " " << "|" << endl;
-    cout << "|" << " " << "|" << "  " << "|" << " " << " " << " " << "|" << endl;
-
     int numbr, row, col; //initialization
     numbr = 6; //number of rows and columns
 
@@ -22,9 +16,19 @@ int main()
 
             cout << ("\n");
     };
+};
+
+int main()
+{
+    cout << " " << "O~" << " " << "  " <<  " " << "O" << " " << endl;
+    cout << "(" << "|" << ")" << "  " << "[" << " " << "|" << " " << "]" << endl;
+    cout << "|" << " " << "|" << "  " << "|" << " " << " " << " " << "|" << endl;
+    cout << " " << "^" << " " << "  " << " " << " " << "|" << " " << " " << endl;
+    cout << "|" << " " << "|" << "  " << "|" << " " << " " << " " << "|" << endl;
 
     return 0;
 };
+
 
 // Heart
 // (row==0 && col%3!=0): In the first row (row 0), print * unless the column index is divisible by 3.
