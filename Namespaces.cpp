@@ -14,7 +14,8 @@ int main()
     string sentence;
     cout << "Type the following statement: The quick fox jumps over the lazy dog.\n";
     cout << "Type here: ";
-    cin >> sentence;
+    getline(cin, sentence);
+    cout << "The sentence you typed: " << sentence << endl;
 
     auto end = high_resolution_clock::now();
     duration<double> duration = end - start;
