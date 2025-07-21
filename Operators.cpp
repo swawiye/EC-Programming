@@ -12,8 +12,11 @@ int main()
 
     // User Input
     cout << "---- USER INPUT ----" << endl;
+
     cout << "Enter your full name: " << endl;
     getline(cin, fullName);
+    cout << "Hello, " << fullName << "!" << " -Captured using 'getline'"<< endl; 
+    
     cout << "Enter the first number: ";
     cin >> num1;
     cout << "Enter the second number: ";
@@ -34,6 +37,7 @@ int main()
     cout << num1 << " / " << num2 << " = " << num1/num2 << endl;
     // Modulus
     cout << num1 << " % " << num2 << " = " << num1%num2 << endl;
+    // Compound operators (assignment operator & arithmetic operator)
     // Increment
     incr += num1; //increment the value of "incr" by the value of "num1"  
     cout << "The incremented(+=) value of 'incr' is " << incr << endl;
@@ -73,4 +77,9 @@ int main()
     cout << (3>2) << " && " << (2>1) << " = " << ((3>2)&&(2>1)) << endl;
     cout << (3>2) << " && " << (2<1) << " = " << ((3>2)&&(2<1)) << endl;
     cout << (3<2) << " && " << (2<1) << " = " << ((3<2)&&(2<1)) << endl;
+
+    // HANDLING USER INPUT
+    cout << "Enter your full name again" << endl;
+    cin >> fullName; 
+    cout << "Hello, " << fullName << "!" << " -Captured using 'cin'"<< endl;   
 }

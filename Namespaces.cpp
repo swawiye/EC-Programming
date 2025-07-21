@@ -1,4 +1,4 @@
-// Discuss the usage of the following namespaces  
+// Discuss the usage of the following namespaces/ header file library 
 
 # include <iostream>
 # include <chrono> //manipulates the time
@@ -25,7 +25,7 @@ int main()
 
 
 
-# include <filesystem> //manipulates the time
+# include <filesystem> //simplify file system operations
 # include <vector> //manipulates the time
 # include <map> //manipulates the time
 # include <fstream> //manipulates the time
