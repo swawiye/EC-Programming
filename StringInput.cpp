@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -11,9 +12,9 @@ int main() {
     cout << "Last Name: "; 
     cin >> lName;
     cout << "Full Name: " << fName << " " << lName << endl;
-
-    getline(cin, favMeal); 
+ 
     cout << "Favourite Meal: "; 
+    getline(cin, favMeal);
 
     // WORK ON THIS!!!!!
     // getline(cin, favMovie);
