@@ -14,7 +14,7 @@ int main()
     }
 
     cout << "\nYou entered: ";
-        for (int i=0; i<5; i++) 
+    for (int i=0; i<5; i++) 
     {
         cout << nums[i] << " ";
         sum = sum + nums[i];
