@@ -25,7 +25,7 @@ int main() {
             cout << "Invalid movie type." << endl;
             return 1;
         }
-    } else if (age >= 12 && age <= 17) {
+    } else if (age >= 13 && age <= 17) {
         if (movieType == "regular") {
             ticketPrice = 300;
         } else if (movieType == "3D") {

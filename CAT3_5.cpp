@@ -1,5 +1,6 @@
 // Calculation Menu
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -8,7 +9,7 @@ int main()
     // declare the variables
     int radius, width, length, base, height;
     float area;
-    const int pi=3.142;
+    const float pi=3.142; 
     string option;
 
     cout << "Choose the operation you'd like to carry out: " << endl;

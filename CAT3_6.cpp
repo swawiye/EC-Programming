@@ -21,7 +21,7 @@ int main() {
 
     lightColor currentLight = red;
 
-    cout << "---TRAFFIC LIGHT SIMULATION---" << endl;
+    cout << "---TRAFFIC LIGHTS ---" << endl;
 
     for (int state = 0; state < 3; ++state) {
         switch (currentLight) {

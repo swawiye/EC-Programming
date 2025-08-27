@@ -16,11 +16,11 @@ int main() {
 
     // discount 
     if (price >= 1000) {
-        discount = 0.50 * price;
+        discount = 0.5 * price;
     } else if (price >= 500) {
         discount = 0.35 * price;
     } else if (price >= 200) {
-        discount = 0.10 * price;
+        discount = 0.1 * price;
     } else {
         discount = 0.0;
     }
